@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HW1PublicTests" project="project1" tests="107" started="107" failures="43" errors="30" ignored="0">
+  <testsuite name="HW1PublicTests" time="0.218">
+    <testcase name="constructors" classname="HW1PublicTests" time="0.013"/>
+    <testcase name="game_randomFreeLocation1" classname="HW1PublicTests" time="0.034">
+      <failure>Free location sequence mismatch
+Expect: [11, 0, 1, 8, 15, 4, 15, 2, 1, 9]
+Actual: [11, 1, 13, 14, 4, 8, 7, 15, 5, 11]
+: arrays first differed at element [1]; expected:&lt;0&gt; but was:&lt;1&gt;&#13;
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:50)&#13;
+	at org.junit.Assert.internalArrayEquals(Assert.java:473)&#13;
+	at org.junit.Assert.assertArrayEquals(Assert.java:369)&#13;
+	at HW1PublicTests.game_randomFreeLocation1(HW1PublicTests.java:1621)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_randomFreeLocation2" classname="HW1PublicTests" time="0.001">
+      <failure>Free location sequence mismatch
+Expect: [42, 34, 210, 101, 221, 230, 170, 146, 20, 72]
+Actual: [46, 147, 216, 142, 202, 52, 116, 232, 214, 148]
+: arrays first differed at element [0]; expected:&lt;42&gt; but was:&lt;46&gt;&#13;
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:50)&#13;
+	at org.junit.Assert.internalArrayEquals(Assert.java:473)&#13;
+	at org.junit.Assert.assertArrayEquals(Assert.java:369)&#13;
+	at HW1PublicTests.game_randomFreeLocation2(HW1PublicTests.java:1634)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_randomFreeLocation3" classname="HW1PublicTests" time="0.002">
+      <failure>Free location sequence mismatch
+Expect: [76, 96, 259, 178, 247, 62, 53, 209, 56, 126]
+Actual: [154, 226, 98, 37, 4, 104, 163, 116, 85, 35]
+: arrays first differed at element [0]; expected:&lt;76&gt; but was:&lt;154&gt;&#13;
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:50)&#13;
+	at org.junit.Assert.internalArrayEquals(Assert.java:473)&#13;
+	at org.junit.Assert.assertArrayEquals(Assert.java:369)&#13;
+	at HW1PublicTests.game_randomFreeLocation3(HW1PublicTests.java:1647)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_randomFreeLocation4" classname="HW1PublicTests" time="0.001">
+      <failure>Free location sequence mismatch
+Expect: [6, 6, 5, 5, 6, 7, 8, 4, 3, 2]
+Actual: [5, 13, 2, 11, 4, 0, 6, 1, 7, 3]
+: arrays first differed at element [0]; expected:&lt;6&gt; but was:&lt;5&gt;&#13;
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:50)&#13;
+	at org.junit.Assert.internalArrayEquals(Assert.java:473)&#13;
+	at org.junit.Assert.assertArrayEquals(Assert.java:369)&#13;
+	at HW1PublicTests.game_randomFreeLocation4(HW1PublicTests.java:1665)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="doesntMerge1" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="doesntMerge2" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertFalse(Assert.java:64)&#13;
+	at org.junit.Assert.assertFalse(Assert.java:74)&#13;
+	at HW1PublicTests.doesntMerge2(HW1PublicTests.java:105)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_gameOver10" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="game_gameOver11" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="mergeFail1" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="mergeFail2" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="mergeFail3" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="game_randomTile1" classname="HW1PublicTests" time="0.001">
+      <failure>Free location sequence mismatch
+Expect: [2, 4, 4, 2, 2, 2, 2, 2, 2, 4]
+Actual: [2, 4, 2, 2, 2, 4, 4, 2, 2, 4]
+: arrays first differed at element [2]; expected:&lt;4&gt; but was:&lt;2&gt;&#13;
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:50)&#13;
+	at org.junit.Assert.internalArrayEquals(Assert.java:473)&#13;
+	at org.junit.Assert.assertArrayEquals(Assert.java:369)&#13;
+	at HW1PublicTests.game_randomTile1(HW1PublicTests.java:1681)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_randomTile2" classname="HW1PublicTests" time="0.001">
+      <failure>Free location sequence mismatch
+Expect: [4, 4, 2, 2, 2, 8, 4, 2, 4, 4]
+Actual: [2, 4, 2, 2, 2, 4, 2, 4, 2, 2]
+: arrays first differed at element [0]; expected:&lt;4&gt; but was:&lt;2&gt;&#13;
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:50)&#13;
+	at org.junit.Assert.internalArrayEquals(Assert.java:473)&#13;
+	at org.junit.Assert.assertArrayEquals(Assert.java:369)&#13;
+	at HW1PublicTests.game_randomTile2(HW1PublicTests.java:1694)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_randomTile3" classname="HW1PublicTests" time="0.001">
+      <failure>Free location sequence mismatch
+Expect: [4, 2, 2, 4, 2, 2, 4, 2, 4, 4]
+Actual: [4, 2, 4, 8, 2, 2, 4, 2, 2, 2]
+: arrays first differed at element [2]; expected:&lt;2&gt; but was:&lt;4&gt;&#13;
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:50)&#13;
+	at org.junit.Assert.internalArrayEquals(Assert.java:473)&#13;
+	at org.junit.Assert.assertArrayEquals(Assert.java:369)&#13;
+	at HW1PublicTests.game_randomTile3(HW1PublicTests.java:1707)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_randomTile4" classname="HW1PublicTests" time="0.002">
+      <failure>Free location sequence mismatch
+Expect: [2, 2, 4, 4, 2, 2, 2, 2, 2, 4]
+Actual: [2, 2, 2, 2, 2, 4, 2, 4, 2, 4]
+: arrays first differed at element [2]; expected:&lt;4&gt; but was:&lt;2&gt;&#13;
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:50)&#13;
+	at org.junit.Assert.internalArrayEquals(Assert.java:473)&#13;
+	at org.junit.Assert.assertArrayEquals(Assert.java:369)&#13;
+	at HW1PublicTests.game_randomTile4(HW1PublicTests.java:1725)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="tileAtGoodExceptions" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="denseBoardConstructorDistinct" classname="HW1PublicTests" time="0.002">
+      <failure>java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:542)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:214)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:218)&#13;
+	at HW1PublicTests.denseBoardConstructorDistinct(HW1PublicTests.java:297)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game2048_empty_constructor1" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="game_addRandomTile1" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at Game2048.addRandomTile(Game2048.java:118)&#13;
+	at HW1PublicTests.game_addRandomTile1(HW1PublicTests.java:1745)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="game_addRandomTile2" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at Game2048.addRandomTile(Game2048.java:118)&#13;
+	at HW1PublicTests.game_addRandomTile2(HW1PublicTests.java:1769)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="game_addRandomTile3" classname="HW1PublicTests" time="0.002">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at Game2048.addRandomTile(Game2048.java:118)&#13;
+	at HW1PublicTests.game_addRandomTile3(HW1PublicTests.java:1795)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="game_addRandomTile4" classname="HW1PublicTests" time="0.002">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at Game2048.addRandomTile(Game2048.java:118)&#13;
+	at HW1PublicTests.game_addRandomTile4(HW1PublicTests.java:1821)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="game_addRandomTile5" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at Game2048.addRandomTile(Game2048.java:118)&#13;
+	at HW1PublicTests.game_addRandomTile5(HW1PublicTests.java:1849)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="mergePossible1" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at DenseBoard.mergePossible(DenseBoard.java:93)&#13;
+	at HW1PublicTests.mergePossible1(HW1PublicTests.java:506)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="mergePossible2" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="mergePossible3" classname="HW1PublicTests" time="0.0">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at DenseBoard.mergePossible(DenseBoard.java:93)&#13;
+	at HW1PublicTests.mergePossible3(HW1PublicTests.java:529)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="mergePossible4" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="mergePossible5" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="mergePossible6" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="mergePossible7" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="mergePossible8" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="mergePossible9" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="denseBoardConstructor1" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="denseBoardConstructor2" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="denseBoardConstructor3" classname="HW1PublicTests" time="0.005">
+      <failure>java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:542)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:214)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:218)&#13;
+	at HW1PublicTests.denseBoardConstructor3(HW1PublicTests.java:253)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="denseBoardConstructor4" classname="HW1PublicTests" time="0.002">
+      <failure>java.lang.AssertionError: expected:&lt;21&gt; but was:&lt;0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:542)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:214)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:218)&#13;
+	at HW1PublicTests.denseBoardConstructor4(HW1PublicTests.java:265)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="denseBoardConstructor5" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="shiftNoMerge1" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Tile at (0, 3) is wrong score
+Expect Board:
+   -    -    4    2    2 
+   -    -    -    -    4 
+   -    -    -    -    - 
+Actual Board:
+..4.2...24.....Initial:
+.......4.2...24Shift: UP&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftNoMerge1(HW1PublicTests.java:671)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftNoMerge2" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Tile at (1, 1) is wrong score
+Expect Board:
+   -    -    -    -    - 
+   8    2    -    -    - 
+   8   32    4    2    - 
+Actual Board:
+.....8..2.83242.Initial:
+......8..283242.Shift: LEFT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftNoMerge2(HW1PublicTests.java:691)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftNoMerge3" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Tile at (0, 0) is wrong score
+Expect Board:
+   -    -    4   16    2 
+   -    -   32    8    2 
+   -    4    8    4    2 
+Actual Board:
+416..232.8.248.42Initial:
+4162..328.2.484.2Shift: RIGHT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftNoMerge3(HW1PublicTests.java:710)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftNoMerge4" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftUp(DenseBoard.java:235)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:639)&#13;
+	at HW1PublicTests.shiftNoMerge4(HW1PublicTests.java:729)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="shiftNoMerge5" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:542)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:214)&#13;
+	at HW1PublicTests.shiftNoMerge5(HW1PublicTests.java:752)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_shift1" classname="HW1PublicTests" time="0.002">
+      <failure>java.lang.AssertionError: Tile at (1, 0) is wrong score
+Expect board:
+   8    -    -    -    - 
+   4    4    -    -    - 
+  16    8    -    -    - 
+  64   16    8    -    - 
+Actual board:
+8....8....168...64168..Initial:
+.4..4222.2.88.864164.4Shift: LEFT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkGame(HW1PublicTests.java:1537)&#13;
+	at HW1PublicTests.game_shift1(HW1PublicTests.java:1604)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="copy1" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:640)&#13;
+	at HW1PublicTests.copy1(HW1PublicTests.java:1323)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="copy2" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:640)&#13;
+	at HW1PublicTests.copy2(HW1PublicTests.java:1351)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="copy3" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:640)&#13;
+	at HW1PublicTests.copy3(HW1PublicTests.java:1381)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="doMerge1" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="doMerge2" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="shiftWithMergeConflicts1" classname="HW1PublicTests" time="0.002">
+      <failure>java.lang.AssertionError: Tile at (1, 0) is wrong score
+Expect Board:
+   -    -    -    - 
+   4    2    -    - 
+   2    -    -    - 
+   -    -    -    - 
+Actual Board:
+....222...2.....Initial:
+....2.22...2....Shift: LEFT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftWithMergeConflicts1(HW1PublicTests.java:949)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftWithMergeConflicts2" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:640)&#13;
+	at HW1PublicTests.shiftWithMergeConflicts2(HW1PublicTests.java:968)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="shiftWithMergeConflicts3" classname="HW1PublicTests" time="0.002">
+      <failure>java.lang.AssertionError: Tile at (0, 0) is wrong score
+Expect Board:
+   4    -    -    - 
+   4    -    -    - 
+  16    8    -    - 
+  64   16    8    - 
+Actual Board:
+..4..22.888.64168.Initial:
+...4..22.888641644Shift: LEFT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftWithMergeConflicts3(HW1PublicTests.java:991)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftWithMergeConflicts4" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Tile at (0, 1) is wrong score
+Expect Board:
+   4    4    2    -    - 
+Actual Board:
+4222.Initial:
+22222Shift: LEFT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftWithMergeConflicts4(HW1PublicTests.java:1006)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftWithMergeConflicts5" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Tile at (0, 2) is wrong score
+Expect Board:
+   -    -    4    4    4 
+Actual Board:
+..8.4Initial:
+22422Shift: RIGHT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftWithMergeConflicts5(HW1PublicTests.java:1021)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_stress1" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftUp(DenseBoard.java:235)&#13;
+	at Game2048.shiftUp(Game2048.java:75)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:1550)&#13;
+	at HW1PublicTests.stressGame(HW1PublicTests.java:2097)&#13;
+	at HW1PublicTests.game_stress1(HW1PublicTests.java:2143)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="game_stress2" classname="HW1PublicTests" time="0.004">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftUp(DenseBoard.java:235)&#13;
+	at Game2048.shiftUp(Game2048.java:75)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:1550)&#13;
+	at HW1PublicTests.stressGame(HW1PublicTests.java:2097)&#13;
+	at HW1PublicTests.game_stress2(HW1PublicTests.java:2182)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="game_stress3" classname="HW1PublicTests" time="0.003">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftUp(DenseBoard.java:235)&#13;
+	at Game2048.shiftUp(Game2048.java:75)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:1550)&#13;
+	at HW1PublicTests.stressGame(HW1PublicTests.java:2097)&#13;
+	at HW1PublicTests.game_stress3(HW1PublicTests.java:2275)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="game_stress4" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at Game2048.shiftDown(Game2048.java:81)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:1551)&#13;
+	at HW1PublicTests.stressGame(HW1PublicTests.java:2097)&#13;
+	at HW1PublicTests.game_stress4(HW1PublicTests.java:2329)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="game_stress6" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftUp(DenseBoard.java:235)&#13;
+	at Game2048.shiftUp(Game2048.java:75)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:1550)&#13;
+	at HW1PublicTests.stressGame(HW1PublicTests.java:2097)&#13;
+	at HW1PublicTests.game_stress6(HW1PublicTests.java:2653)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="game_gameOver1" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Expect game over true
+Expect: true
+Actual: false
+Board:
+2 expected:&lt;true&gt; but was:&lt;false&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at HW1PublicTests.game_gameOver1(HW1PublicTests.java:1871)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_gameOver2" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="game_gameOver3" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="game_gameOver4" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Expect game over true
+Expect: true
+Actual: false
+Board:
+2482 expected:&lt;true&gt; but was:&lt;false&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at HW1PublicTests.game_gameOver4(HW1PublicTests.java:1916)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_gameOver5" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="game_gameOver6" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="game_gameOver7" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="game_gameOver8" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Expect game over true
+Expect: true
+Actual: false
+Board:
+28243241664162822824 expected:&lt;true&gt; but was:&lt;false&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at HW1PublicTests.game_gameOver8(HW1PublicTests.java:1984)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="game_gameOver9" classname="HW1PublicTests" time="0.0">
+      <failure>java.lang.AssertionError: Expect game over true
+Expect: true
+Actual: false
+Board:
+242428424242 expected:&lt;true&gt; but was:&lt;false&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at HW1PublicTests.game_gameOver9(HW1PublicTests.java:1999)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="addTileAtFreeSpace1" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at HW1PublicTests.addTileAtFreeSpace1(HW1PublicTests.java:342)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="addTileAtFreeSpace2" classname="HW1PublicTests" time="0.0">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at HW1PublicTests.addTileAtFreeSpace2(HW1PublicTests.java:365)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="addTileAtFreeSpace3" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at HW1PublicTests.addTileAtFreeSpace3(HW1PublicTests.java:388)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="addTileAtFreeSpace4" classname="HW1PublicTests" time="0.0">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at HW1PublicTests.addTileAtFreeSpace4(HW1PublicTests.java:413)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="addTileAtFreeSpace5" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at HW1PublicTests.addTileAtFreeSpace5(HW1PublicTests.java:438)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="addTileAtFreeSpace6" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at HW1PublicTests.addTileAtFreeSpace6(HW1PublicTests.java:463)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="game2048_tile_constructor1" classname="HW1PublicTests" time="0.002"/>
+    <testcase name="mergePossible10" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="mergePossible11" classname="HW1PublicTests" time="0.002">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at DenseBoard.mergePossible(DenseBoard.java:93)&#13;
+	at HW1PublicTests.mergePossible11(HW1PublicTests.java:616)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="mergePossible12" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="boardCanHoldTile" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.addTileAtFreeSpace(DenseBoard.java:137)&#13;
+	at HW1PublicTests.boardCanHoldTile(HW1PublicTests.java:1499)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="mergesWith1" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="mergesWith2" classname="HW1PublicTests" time="0.0"/>
+    <testcase name="mergesWith3" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="mergesWith4" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="shiftMovedTiles1" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:542)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:214)&#13;
+	at HW1PublicTests.shiftMovedTiles1(HW1PublicTests.java:1060)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftMovedTiles2" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftUp(DenseBoard.java:235)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:639)&#13;
+	at HW1PublicTests.shiftMovedTiles2(HW1PublicTests.java:1084)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="shiftMovedTiles3" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:640)&#13;
+	at HW1PublicTests.shiftMovedTiles3(HW1PublicTests.java:1110)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="shiftMovedTiles4" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Tile at (3, 1) is wrong score
+Expect Board:
+   -    -    -    - 
+   -    -    -    8 
+   -    -    2    4 
+   -    4    8    8 
+Actual Board:
+.......8..24.848Initial:
+.......8.2.44448Shift: RIGHT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftMovedTiles4(HW1PublicTests.java:1138)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftMovedTiles5" classname="HW1PublicTests" time="0.001"/>
+    <testcase name="shiftMovedTiles6" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: ExpectMoved: false
+ActualMoved: true
+Initial:
+....Shift: UP
+Final Board:
+.... expected:&lt;false&gt; but was:&lt;true&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at HW1PublicTests.shiftMovedTiles6(HW1PublicTests.java:1195)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftMovedTiles7" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:640)&#13;
+	at HW1PublicTests.shiftMovedTiles7(HW1PublicTests.java:1214)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="shiftMovedTiles8" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:542)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:214)&#13;
+	at HW1PublicTests.shiftMovedTiles8(HW1PublicTests.java:1236)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftMovedTiles9" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:542)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:214)&#13;
+	at HW1PublicTests.shiftMovedTiles9(HW1PublicTests.java:1256)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testToString1" classname="HW1PublicTests" time="0.03">
+      <failure>
+        <expected>   -    -    -    2 
+   -    -    -    - 
+   -    -    -    2 
+   -    2    4    8 
+</expected>
+        <actual>...2.......2.248</actual>org.junit.ComparisonFailure: expected:&lt;[   -    -    -    2 
+   -    -    -    - 
+   -    -    -    2 
+   -    2    4    8 
+]&gt; but was:&lt;[...2.......2.248]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at HW1PublicTests.testToString1(HW1PublicTests.java:1410)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testToString2" classname="HW1PublicTests" time="0.0">
+      <failure>
+        <expected>   2    -    - 
+   -    -    2 
+   -    -    - 
+   2    -    2 
+   -    -    - 
+   -    -    - 
+</expected>
+        <actual>2....2...2.2......</actual>org.junit.ComparisonFailure: expected:&lt;[   2    -    - 
+   -    -    2 
+   -    -    - 
+   2    -    2 
+   -    -    - 
+   -    -    - 
+]&gt; but was:&lt;[2....2...2.2......]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at HW1PublicTests.testToString2(HW1PublicTests.java:1430)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testToString3" classname="HW1PublicTests" time="0.0">
+      <failure>
+        <expected>   4    2    4    2    2 
+</expected>
+        <actual>42422</actual>org.junit.ComparisonFailure: expected:&lt;[   4    2    4    2    2 
+]&gt; but was:&lt;[42422]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at HW1PublicTests.testToString3(HW1PublicTests.java:1440)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testToString4" classname="HW1PublicTests" time="0.0">
+      <failure>
+        <expected>   -    - 
+   2    - 
+   -    4 
+   2    8 
+</expected>
+        <actual>..2..428</actual>org.junit.ComparisonFailure: expected:&lt;[   -    - 
+   2    - 
+   -    4 
+   2    8 
+]&gt; but was:&lt;[..2..428]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at HW1PublicTests.testToString4(HW1PublicTests.java:1456)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testToString5" classname="HW1PublicTests" time="0.001">
+      <failure>
+        <expected>   4   16    2    -    - 
+  32    8    -    2    - 
+   4    8    4    -    2 
+</expected>
+        <actual>4162..328.2.484.2</actual>org.junit.ComparisonFailure: expected:&lt;[   4   16    2    -    - 
+  32    8    -    2    - 
+   4    8    4    -    2 
+]&gt; but was:&lt;[4162..328.2.484.2]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at HW1PublicTests.testToString5(HW1PublicTests.java:1470)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testToString6" classname="HW1PublicTests" time="0.001">
+      <failure>
+        <expected>   -    -    -    -    - 
+   -    8    -    -    2 
+   8   32    4    2    - 
+</expected>
+        <actual>......8..283242.</actual>org.junit.ComparisonFailure: expected:&lt;[   -    -    -    -    - 
+   -    8    -    -    2 
+   8   32    4    2    - 
+]&gt; but was:&lt;[......8..283242.]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at HW1PublicTests.testToString6(HW1PublicTests.java:1484)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftWithMerge1" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Tile at (0, 0) is wrong score
+Expect Board:
+   4    -    -    -    - 
+Actual Board:
+2.2..Initial:
+2..2.Shift: LEFT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftWithMerge1(HW1PublicTests.java:784)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftWithMerge2" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Tile at (0, 0) is wrong score
+Expect Board:
+   -    4    2    4    4 
+Actual Board:
+424.4Initial:
+42422Shift: RIGHT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftWithMerge2(HW1PublicTests.java:799)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftWithMerge3" classname="HW1PublicTests" time="0.002">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:640)&#13;
+	at HW1PublicTests.shiftWithMerge3(HW1PublicTests.java:822)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="shiftWithMerge4" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Tile at (5, 0) is wrong score
+Expect Board:
+   -    -    - 
+   -    -    - 
+   -    -    - 
+   -    -    - 
+   -    -    - 
+   8    -    - 
+Actual Board:
+...............44.Initial:
+...............4.4Shift: LEFT&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftWithMerge4(HW1PublicTests.java:849)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftWithMerge5" classname="HW1PublicTests" time="0.001">
+      <error>java.lang.NullPointerException&#13;
+	at DenseBoard.shiftDown(DenseBoard.java:254)&#13;
+	at HW1PublicTests.doShift(HW1PublicTests.java:640)&#13;
+	at HW1PublicTests.shiftWithMerge5(HW1PublicTests.java:868)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="shiftWithMerge6" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: expected:&lt;7&gt; but was:&lt;0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:542)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:214)&#13;
+	at HW1PublicTests.shiftWithMerge6(HW1PublicTests.java:891)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftWithMerge7" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Tile at (0, 0) is wrong score
+Expect Board:
+   -    -    -    - 
+   -    -    -    - 
+   8    -    4    - 
+  16    8    8    4 
+Actual Board:
+8.4.........16884Initial:
+884216.82........Shift: DOWN&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:209)&#13;
+	at HW1PublicTests.shiftWithMerge7(HW1PublicTests.java:912)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="addTileAtFreeSpaceExceptions" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: Throw an appropriate exception on a request to add a tile to full board&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at HW1PublicTests.addTileAtFreeSpaceExceptions(HW1PublicTests.java:488)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="shiftMovedTiles10" classname="HW1PublicTests" time="0.001">
+      <failure>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:542)&#13;
+	at HW1PublicTests.checkBoard(HW1PublicTests.java:214)&#13;
+	at HW1PublicTests.shiftMovedTiles10(HW1PublicTests.java:1276)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>
