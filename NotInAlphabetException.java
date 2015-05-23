@@ -11,9 +11,10 @@ public class NotInAlphabetException extends RuntimeException{
 		this.a = a;
 	}
 	public NotInAlphabetException(char offender, Alphabet a){
-		this.msg = String.format("Not in alphabet: \'%c\' not found in %s", offender, a.toString());
 		this.offender = offender;
 		this.a = a;
+		this.msg = String.format("Not in alphabet: \'%c\' not found in %s.", this.offender, this.a.getSymbols());
+
 	}
 	public String toString(){
 		return msg;

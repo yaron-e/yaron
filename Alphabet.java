@@ -37,7 +37,7 @@ public class Alphabet {
   }
 
   public boolean equals(Object other){
-	  if(other instanceof Alphabet && other.equals(symbols))
+	  if(other instanceof Alphabet && ((Alphabet) other).getSymbols().equals(symbols))
 		  return true;
 	  else 
 		  return false;

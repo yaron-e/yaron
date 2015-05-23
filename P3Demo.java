@@ -8,8 +8,8 @@ public class P3Demo {
     
     Object a1 = new Alphabet("ABCabc");
     Object a2 = new Alphabet("ABCabc");
-    
-    System.out.println(new CaesarCipher(1, (Alphabet) a1).encrypt("w"));
+    NotInAlphabetException e = new NotInAlphabetException('C',new Alphabet("abcdefghijklmnopqrstuvwxyz"));
+    System.out.println(e.msg);
     System.out.println(a2.toString());
     /* Cipher c;
     c= new CaesarCipher(1);
